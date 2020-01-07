@@ -4,9 +4,9 @@ local mp = require 'mp'
 local auto_change = true
 local av_map = {
     ["default"]      = "auto",
-    ["DELL U2312HM"] = "coreaudio/AppleUSBAudioEngine:FiiO:DigiHug USB Audio:1a160000:3", -- FiiO DAC
-    ["SONY TV  *00"] = "coreaudio/AppleGFXHDAEngineOutputDP:0:{D94D-8204-01010101}", -- HDMI
-    ["Color LCD"]    = "coreaudio/AppleHDAEngineOutput:1B,0,1,1:0", -- Built-in
+   -- ["DELL U2312HM"] = "coreaudio/AppleUSBAudioEngine:FiiO:DigiHug USB Audio:1a160000:3", -- FiiO DAC
+   -- ["SONY TV  *00"] = "coreaudio/AppleGFXHDAEngineOutputDP:0:{D94D-8204-01010101}", -- HDMI
+   -- ["Color LCD"]    = "coreaudio/AppleHDAEngineOutput:1B,0,1,1:0", -- Built-in
 }
 
 function set_audio_device(obs_display)
